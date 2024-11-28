@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6806089048546585685}
   m_Layer: 0
   m_Name: AnchorCrocodile
-  m_TagString: Untagged
+  m_TagString: Crocodile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,6 +110,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3774469005859100864, guid: 78fc42d5067e4bd419aee798bb11d1b9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5255ac45757a9e84eacb594c5a12e82c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

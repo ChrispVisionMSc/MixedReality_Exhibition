@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5184146426405094537}
   m_Layer: 0
   m_Name: AnchorGalleryModel
-  m_TagString: Untagged
+  m_TagString: GalleryModel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,6 +109,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VR-MSc_MR-Exhibit_Live
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396775195245729968, guid: 0ec3ce3190b0a1542b1cb4510d015088,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5654300009230090883, guid: 0ec3ce3190b0a1542b1cb4510d015088,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
