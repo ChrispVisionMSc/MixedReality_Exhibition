@@ -6,6 +6,8 @@ TagManager:
   tags:
   - GalleryModel
   - Crocodile
+  - PanelA5-5
+  - PanelA5-6
   layers:
   - Default
   - TransparentFX
