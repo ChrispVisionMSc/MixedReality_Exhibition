@@ -1,3 +1,4 @@
+using Meta.XR.MRUtilityKit;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,17 +7,17 @@ public class RoomMeshOnOff : MonoBehaviour
 {
     public GameObject roomMesh;
 
-    public void EnableDisableObject()
+    public void EnableDisableMesh()
     {
-        if (roomMesh.activeSelf == true)
+        if (roomMesh.GetComponent<EffectMesh>().HideMesh == true)
         {
-            roomMesh.SetActive(false);
+            roomMesh.GetComponent<EffectMesh>().HideMesh = false;
             Debug.LogWarning("Deactivating");
         }
 
-        else if (roomMesh.activeSelf == false)
+        else if (roomMesh.GetComponent<EffectMesh>().HideMesh == false)
         {
-            roomMesh.SetActive(true);
+            roomMesh.GetComponent<EffectMesh>().HideMesh = true;
             Debug.LogWarning("Enabling");
         }
             
