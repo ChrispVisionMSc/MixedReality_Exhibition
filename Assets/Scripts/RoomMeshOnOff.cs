@@ -9,6 +9,7 @@ public class RoomMeshOnOff : MonoBehaviour
 
     public void EnableDisableMesh()
     {
+
         if (roomMesh.GetComponent<EffectMesh>().HideMesh == true)
         {
             roomMesh.GetComponent<EffectMesh>().HideMesh = false;
