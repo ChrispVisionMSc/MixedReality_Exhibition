@@ -855,7 +855,7 @@ MonoBehaviour:
     e33: 1
   SceneSettings:
     DataSource: 2
-    RoomIndex: 0
+    RoomIndex: -1
     RoomPrefabs:
     - {fileID: 5618556046422172173, guid: 4b454e8ccd6764ccdbcd91586969863f, type: 3}
     - {fileID: 5618556046422172173, guid: 029ede24e76b24d0888dc235dd0b96f2, type: 3}
@@ -2781,7 +2781,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 213410035}
-  - component: {fileID: 213410034}
+  - component: {fileID: 213410036}
+  - component: {fileID: 213410037}
   m_Layer: 0
   m_Name: Scriptholder01
   m_TagString: Untagged
@@ -2789,7 +2790,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &213410034
+--- !u!4 &213410035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213410033}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213410036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213410033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48bf6b3a72c12fe46b3d65e246560134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &213410037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2802,21 +2830,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomMesh: {fileID: 77360650}
---- !u!4 &213410035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213410033}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &214361035
 GameObject:
   m_ObjectHideFlags: 0
@@ -9442,50 +9455,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 643471890}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &763152919
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 763152921}
-  - component: {fileID: 763152920}
-  m_Layer: 0
-  m_Name: Scriptholder02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &763152920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763152919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bf6b3a72c12fe46b3d65e246560134, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &763152921
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763152919}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &763386632
 GameObject:
@@ -16251,7 +16220,7 @@ MonoBehaviour:
   PrefabsToSpawn:
   - Labels: 128
     Prefabs:
-    - {fileID: 1029911459384352755, guid: d0708bbd725738548b84458949517603, type: 3}
+    - {fileID: 1029911459384352755, guid: 3e2b90cf8262f954683dbf88d2ffa8f3, type: 3}
     PrefabSelection: 0
     MatchAspectRatio: 0
     CalculateFacingDirection: 0
@@ -20333,7 +20302,7 @@ Transform:
   m_GameObject: {fileID: 1753786505}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40557975, y: 0.579228, z: -0.40557975, w: 0.579228}
-  m_LocalPosition: {x: -0.0175, y: 0.042, z: 0.0018}
+  m_LocalPosition: {x: -0.0175, y: 0.0406, z: 0.0018}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -20363,9 +20332,9 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 763152920}
-        m_TargetAssemblyTypeName: GalleryModelOnOff, Assembly-CSharp
-        m_MethodName: EnableDisableModel
+      - m_Target: {fileID: 213410037}
+        m_TargetAssemblyTypeName: RoomMeshOnOff, Assembly-CSharp
+        m_MethodName: EnableDisableMesh
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20373,7 +20342,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   _whenUnselect:
     m_PersistentCalls:
@@ -20882,7 +20851,7 @@ MonoBehaviour:
   PrefabsToSpawn:
   - Labels: 128
     Prefabs:
-    - {fileID: 1029911459384352755, guid: 0ca0f30759a7e504c9a95b0d74d5e9f6, type: 3}
+    - {fileID: 1029911459384352755, guid: 4703066b66eb27e49a8208279c9f9abf, type: 3}
     PrefabSelection: 0
     MatchAspectRatio: 0
     CalculateFacingDirection: 0
@@ -21912,9 +21881,9 @@ MonoBehaviour:
   _whenSelect:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 213410034}
-        m_TargetAssemblyTypeName: RoomMeshOnOff, Assembly-CSharp
-        m_MethodName: EnableDisableObject
+      - m_Target: {fileID: 213410036}
+        m_TargetAssemblyTypeName: GalleryModelOnOff, Assembly-CSharp
+        m_MethodName: EnableDisableModel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -25561,7 +25530,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1549833715}
   - {fileID: 1095717036}
-  - {fileID: 763152921}
   - {fileID: 213410035}
   - {fileID: 1911358405}
   - {fileID: 810425681}
