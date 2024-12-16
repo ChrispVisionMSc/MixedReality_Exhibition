@@ -1106,7 +1106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &77360651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16197,7 +16197,7 @@ GameObject:
   - component: {fileID: 1374795974}
   - component: {fileID: 1374795973}
   m_Layer: 0
-  m_Name: AnchorSpawnGallery
+  m_Name: AnchorSpawnGalleryV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20828,7 +20828,7 @@ GameObject:
   - component: {fileID: 1784035674}
   - component: {fileID: 1784035673}
   m_Layer: 0
-  m_Name: AnchorSpawnInteractives
+  m_Name: AnchorSpawnInteractivesV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
