@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MRUK Exhibition Test V2.unity
     guid: 585e2855f4059a04caf1e25c6ed9453a
+  - enabled: 0
+    path: Assets/Scenes/MRUK Exhibition Test V1.unity
+    guid: 91b1c3290c88f6640ae0e356994d344d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 44895285f780b2541988ab4e828971a9,
       type: 2}
