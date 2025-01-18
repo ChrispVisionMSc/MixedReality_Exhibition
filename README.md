@@ -12,11 +12,13 @@ This app may also run on the Meta-3s headset but not tested.
 
 The app is designed to work specifically within the Temporary Science Exhibition gallery at National Museum Wales in Cardiff.
 
-However it is possible to run the app within a large room of approximately 10 x 10 metres or larger.
+However, it is possible to run the app within a large room of approximately 10 x 10 metres or larger providing a furniture object named 'Other' has been added to the centre of the room in the scene-setup. 
 
 To run the app it is first necessary to set up a room space using the Meta Horizon OS.
 See link here for guidance on doing this. https://www.youtube.com/watch?v=v5hMgoAgcsU
 A furniture item called 'other' will need to be added at the centre of the room space as the app uses this as an anchor point to spawn the mixed reality experience.
+
+NB!! On inital build and run of the app the system may not display the gallery model. To fix this quit the MixedReality_Exhibition App and restart. The Exhibition model should apear once the headset has locked onto the room space.
 
 There are 3 scenes in the Unnity Project:
 
